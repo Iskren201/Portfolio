@@ -32,6 +32,6 @@ Have an idea for your next great website? Let's collaborate to turn it into a re
 
 - **GitHub:** [Iskren201](https://github.com/Iskren201)
 - **LinkedIn:** [Iskren Iliev](https://www.linkedin.com/in/iskren-iliev-31a809257/)
-- **Gmail:**[Iskren Iliev](iskren201@gmail.com)
+- **Email:** [iskren201@gmail.com](mailto:iskren201@gmail.com)
 
 Feel free to explore my portfolio, and don't hesitate to reach out for any collaborations or inquiries. Let's build something amazing together! 🚀
