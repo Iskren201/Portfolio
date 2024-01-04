@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+his is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -10,25 +10,28 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Welcome to Iskren Iliev's Portfolio 👋;
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Greetings! I'm Iskren Iliev, a dedicated developer and designer with a passion for creating exceptional digital experiences. With a diverse skill set and a commitment to excellence, I bring creativity and technical expertise to every project.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## About Me
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+I have a background in freelance work for agencies and startups, where I've had the opportunity to collaborate with talented individuals and create digital products for various purposes.
 
-## Learn More
+## Services
 
-To learn more about Next.js, take a look at the following resources:
+### Beautiful Designs
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Crafting elegant designs tailored to your needs, following core design theory. Proficient in tools like Photoshop, Illustrator, Figma, and Indesign.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Code Your Dream Project
 
-## Deploy on Vercel
+Have an idea for your next great website? Let's collaborate to turn it into a reality. I am skilled in front-end and back-end development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Let's Connect!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **GitHub:** [Iskren201](https://github.com/Iskren201)
+- **LinkedIn:** [Iskren Iliev](https://www.linkedin.com/in/iskren-iliev-31a809257/)
+- **Gmail:**[Iskren Iliev](iskren201@gmail.com)
+
+Feel free to explore my portfolio, and don't hesitate to reach out for any collaborations or inquiries. Let's build something amazing together! 🚀

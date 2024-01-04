@@ -14,7 +14,7 @@ const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className=" bg-gray-300 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-xl">Portfolio</h1>
