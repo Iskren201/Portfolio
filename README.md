@@ -14,9 +14,9 @@ yarn dev
 
 Greetings! I'm Iskren Iliev, a dedicated developer and designer with a passion for creating exceptional digital experiences. With a diverse skill set and a commitment to excellence, I bring creativity and technical expertise to every project.
 
-## About Me
+<!-- ## About Me
 
-I have a background in freelance work for agencies and startups, where I've had the opportunity to collaborate with talented individuals and create digital products for various purposes.
+I have a background in freelance work for agencies and startups, where I've had the opportunity to collaborate with talented individuals and create digital products for various purposes. -->
 
 ## Services
 
