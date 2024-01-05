@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { BsFillMoonStarsFill } from "react-icons/bs";
 
 import { FaGithub } from "react-icons/fa";
@@ -50,7 +49,7 @@ const Header = () => {
               develop my skills in web development and pursue a career as a
               Front-end developer.
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400 ">
               <a
                 href="https://github.com/Iskren201"
                 target="_blank"
@@ -58,13 +57,7 @@ const Header = () => {
               >
                 <FaGithub />
               </a>
-              {/* <a
-                href="https://www.linkedin.com/in/iskren-iliev-31a809257/"
-                target="_blank"
-                rel="linkedin"
-              >
-                <FaLinkedin />
-              </a> */}
+
               <a
                 href="https://www.linkedin.com/in/iskren-iliev-31a809257/"
                 target="_blank"
@@ -73,7 +66,7 @@ const Header = () => {
                 <GrLinkedin />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96 sm:w-40 sm:h-40">
               <Image src={iskren} layout="fill" objectFit="cover" />
             </div>
           </div>
