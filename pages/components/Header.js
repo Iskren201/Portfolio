@@ -42,11 +42,13 @@ const Header = () => {
               Iskren Iliev
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and Student IT.
+              Developer and Student.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Freelancer providing services for programming and design content
-              needs. Join me down below and let's get cracking!
+              I have been working non-professionally in Front-end development
+              for the past year. As a third-year student, I am eager to further
+              develop my skills in web development and pursue a career as a
+              Front-end developer.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a
