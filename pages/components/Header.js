@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { animate } from "motion";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-
 import { FaGithub } from "react-icons/fa";
 import { GrLinkedin } from "react-icons/gr";
 import iskren from "../../public/Iskren.jpg";
@@ -11,17 +11,22 @@ import Carts from "./Carts";
 
 const Header = () => {
   const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    animate("#iskren-image", { scale: 1, opacity: 1 }, { duration: 4.0 });
+  }, []);
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className=" bg-gray-300 px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Portfolio</h1>
+          <nav className="py-10 mb-12 flex justify-between dark:text-white text-black">
+            <h1 className="font-burtons text-xl ">Portfolios</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
+                  className="cursor-pointer text-2xl"
                 />
               </li>
               <li>
@@ -57,7 +62,6 @@ const Header = () => {
               >
                 <FaGithub />
               </a>
-
               <a
                 href="https://www.linkedin.com/in/iskren-iliev-31a809257/"
                 target="_blank"
@@ -66,7 +70,10 @@ const Header = () => {
                 <GrLinkedin />
               </a>
             </div>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96 sm:w-40 sm:h-40">
+            <div
+              id="iskren-image"
+              className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-20 md:h-96 md:w-96 sm:w-40 sm:h-40 opacity-0 scale-0"
+            >
               <Image src={iskren} layout="fill" objectFit="cover" />
             </div>
           </div>

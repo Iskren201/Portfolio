@@ -17,8 +17,11 @@ const Service = () => {
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mb-6">
           I have accumulated one year of hands-on experience in web development,
           focusing on
-          <span className="text-yellow-400"> JavaScript</span>,
-          <span className="text-[#dd4b25]"> HTML</span>,
+          <span className="text-yellow-600 dark:text-[#efd81d]">
+            {" "}
+            JavaScript
+          </span>
+          ,<span className="text-[#dd4b25]"> HTML</span>,
           <span className="text-[#149eca]"> ReactJS</span>,
           <span className="text-[#36b7f0]"> Tailwind CSS</span>,
           <span className="text-[#e84e31]"> GitHub</span>, and

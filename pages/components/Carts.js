@@ -15,6 +15,33 @@ const Carts = () => {
             src={web1}
           />
         </div>
+        <div className="basis-1/3 flex-1 ">
+          <Image
+            className="rounded-lg object-cover"
+            width={"200px"}
+            height={"100px"}
+            layout="responsive"
+            src={web1}
+          />
+        </div>
+        <div className="basis-1/3 flex-1 ">
+          <Image
+            className="rounded-lg object-cover"
+            width={"200px"}
+            height={"100px"}
+            layout="responsive"
+            src={web1}
+          />
+        </div>
+        <div className="basis-1/3 flex-1 ">
+          <Image
+            className="rounded-lg object-cover"
+            width={"200px"}
+            height={"100px"}
+            layout="responsive"
+            src={web1}
+          />
+        </div>
       </div>
     </>
   );
