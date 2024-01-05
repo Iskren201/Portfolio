@@ -1,31 +1,59 @@
 import React from "react";
 import Image from "next/image";
 import js from "../../public/js.png";
-import code from "../../public/code.png";
-import consulting from "../../public/consulting.png";
+import Html from "../../public/Html.png";
+import ReactJs from "../../public/ReactJs2.png";
+import Tailwind from "../../public/Tailwind-CSS .png";
+import GitHub from "../../public/GitHub.png";
+import { FaGithub } from "react-icons/fa";
 
 const Service = () => {
   return (
     <>
       <div>
         <h3 className="text-3xl py-1 dark:text-white text-center m-4">
-          Tech Stack & About me
+          Tech Stack & About
         </h3>
+        {/* <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+          I have accumulated one year of hands-on experience in web development,
+          focusing on
+          <span className="text-yellow-400"> JavaScript</span>,
+          <span className="text-[#dd4b25]"> HTML</span> ,
+          <span className="text-[#149eca]">ReactJS </span> ,
+          <span className="text-[#36b7f0]">Tailwind CSS</span>,
+          <span className="text-[#e84e31]">GitHub</span>, and
+          <span className="text-[#ff6c37]">Postman</span>. My journey as a
+          self-taught front-end developer includes coursework at SoftUni,
+          university studies, and the successful completion of independent
+          projects. During this time, I've actively contributed to several
+          small-scale projects, showcasing my proficiency in these technologies.
+          I am enthusiastic about expanding my skill set and contributing to
+          innovative projects."
+        </p> */}
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          JavaScript
-          <span className="text-teal-500"> agencies </span>
-          consulted for <span className="text-teal-500">startups </span>
-          and collaborated with talanted people to create digital products for
-          both business and consumer use.
-        </p>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          I offer from a wide range of services, including brand design,
-          programming and teaching.
+          I have accumulated one year of hands-on experience in web development,
+          focusing on
+          <span className="text-yellow-400"> JavaScript</span>,
+          <span className="text-[#dd4b25]"> HTML</span>,
+          <span className="text-[#149eca]"> ReactJS</span>,
+          <span className="text-[#36b7f0]"> Tailwind CSS</span>,
+          <span className="text-[#e84e31]"> GitHub</span>, and
+          <span className="text-[#ff6c37]"> Postman</span>. My journey as a
+          self-taught front-end developer includes coursework at SoftUni,
+          university studies, and the successful completion of independent
+          projects. During this time, I've actively contributed to several
+          small-scale projects, showcasing my proficiency in these technologies.
+          I am enthusiastic about expanding my skill set and contributing to
+          innovative projects.
         </p>
       </div>
       <div className="lg:flex gap-10">
         <div>
           <Image src={js} width={100} height={100} />
+          <Image src={Html} width={100} height={100} />
+          <Image src={ReactJs} width={100} height={100} />
+          <Image src={Tailwind} width={100} height={100} />
+          <Image src={""} width={100} height={100} />
         </div>
         {/* <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
           <Image src={code} width={100} height={100} />
