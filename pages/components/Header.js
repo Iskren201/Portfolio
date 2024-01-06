@@ -10,7 +10,7 @@ import About from "./About";
 import Carts from "./Carts";
 
 const Header = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     animate("#iskren-image", { scale: 1, opacity: 1 }, { duration: 4.0 });
