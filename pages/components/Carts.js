@@ -42,6 +42,16 @@ const projectData = [
     image: "/Project8.png",
     link: "https://github.com/Iskren201/CITB549-Client-Server-Technologies",
   },
+  {
+    id: 9,
+    image: "/Project9.png",
+    link: "https://github.com/Iskren201/carRent",
+  },
+  {
+    id: 10,
+    image: "/Project10.png",
+    link: "https://github.com/",
+  },
 ];
 
 const ProjectsPerPage = 4;
