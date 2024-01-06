@@ -23,7 +23,7 @@ const TextTypingService = () => {
           <span className="text-[#ff6c37]"> Postman</span>. My journey as a
           self-taught front-end developer includes coursework at SoftUni,
           university studies, and the successful completion of independent
-          projects. During this time, I've actively contributed to several
+          projects. During this time, I&apos;ve actively contributed to several
           small-scale projects, showcasing my proficiency in these technologies.
           I am enthusiastic about expanding my skill set and contributing to
           innovative projects.

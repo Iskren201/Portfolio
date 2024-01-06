@@ -32,14 +32,14 @@ const HeaderText = () => {
           <a
             href="https://github.com/Iskren201"
             target="_blank"
-            rel="Iskren201"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/iskren-iliev-31a809257/"
             target="_blank"
-            rel="linkedin"
+            rel="noreferrer"
           >
             <GrLinkedin />
           </a>
