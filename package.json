@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "firebase": "^9.10.0",
     "framer-motion": "^10.17.8",
     "moment": "^2.29.4",
@@ -19,6 +20,7 @@
     "react-icons": "^4.4.0",
     "react-intersection-observer": "^9.5.3",
     "react-scroll": "^1.9.0",
+    "react-scroll-motion": "^0.3.2",
     "react-spring": "^9.7.3"
   },
   "devDependencies": {

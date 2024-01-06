@@ -1,13 +1,15 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const AnimatedText = () => {
+const TextTypingService = () => {
   return (
     <>
       <div>
         <h3 className="text-3xl py-1 dark:text-white text-center m-4 text-slide-in-from-bottom">
           Tech Stack & About
         </h3>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mb-6">
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200 mb-6 ">
           I have accumulated one year of hands-on experience in web development,
           focusing on
           <span className="text-yellow-600 dark:text-[#efd81d]">
@@ -31,4 +33,4 @@ const AnimatedText = () => {
   );
 };
 
-export default AnimatedText;
+export default TextTypingService;
