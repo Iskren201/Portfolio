@@ -7,12 +7,14 @@ import Tailwind from "../../public/Tailwind-CSS .png";
 import GitHub from "../../public/GitHub.png";
 import PostMan from "../../public/postman.png";
 import TextTypingService from "../assets/TextTypingService";
+import Slide from "react-reveal/Roll";
 
 const Service = () => {
   return (
     <>
       <TextTypingService />
       {/* <div className="lg:flex  "> */}
+
       <div className="flex flex-col items-center gap-4 md:flex-row md:justify-around">
         <Image src={js} width={100} height={100} />
         <Image src={Html} width={100} height={100} />
